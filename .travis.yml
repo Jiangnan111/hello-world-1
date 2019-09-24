@@ -1,8 +1,6 @@
 language: c
 dist: bionic
 sudo: required
-install:
-  - sudo apt update
 
 script: 
   - gcc hello.c -o hello -lcurl
